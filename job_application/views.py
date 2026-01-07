@@ -26,3 +26,8 @@ def index(request):
             messages.success(request, 'Submitted Successfully')
 
     return render(request, 'index.html')
+
+
+
+def about(request):
+    return render(request, 'about.html')
